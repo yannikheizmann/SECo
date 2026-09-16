@@ -50,6 +50,8 @@ is intended for a local demonstration, not isolated multi-user sessions.
 
 ## Configuration and architecture
 
+![SECo agent graph](docs/graph.png)
+
 - [Configuration](docs/configuration.md): models, prompts, paths, and graph identifiers.
 - [Architecture and extension](docs/architecture.md): routing, states, registries,
   and adding agents or tools.
