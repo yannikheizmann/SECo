@@ -56,6 +56,18 @@ src/seco/
 └── main.py   # Terminal and Gradio application
 ```
 
+## Verification
+
+```sh
+uv run --locked python -m unittest discover -s tests -v
+```
+
+The smoke tests check CLI help without credentials, frontend construction, and a
+two-turn general conversation through the graph with mocked external services.
+They do not validate live proxy access, embeddings, or search results. To verify
+those integrations, configure credentials and ask both a university question and
+a robot question in the application.
+
 ## Background
 
 SECo grew out of a university project for Sweaty at Hochschule Offenburg.
