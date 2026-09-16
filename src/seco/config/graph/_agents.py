@@ -1,0 +1,5 @@
+INTENT_AGENT = "intent_agent"
+HSO_AGENT = "hso_agent"
+SWEATY_AGENT = "sweaty_agent"
+GENERAL_AGENT = "general_agent"
+AGGREGATOR_AGENT = "aggregator_agent"

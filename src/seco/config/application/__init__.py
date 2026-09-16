@@ -1,0 +1,21 @@
+from ._static import (
+    DATA_PATH,
+    EMBEDDINGS_MODEL,
+    LLM_PROXY_URL,
+    LOGGING_PATH,
+    MAX_HISTORY_LENGTH,
+    MAX_RETRIEVAL_CONTEXT,
+    RAG_DATA_PATH,
+    RAG_VS_PATH,
+)
+
+__all__ = [
+    "DATA_PATH",
+    "EMBEDDINGS_MODEL",
+    "LLM_PROXY_URL",
+    "LOGGING_PATH",
+    "MAX_HISTORY_LENGTH",
+    "MAX_RETRIEVAL_CONTEXT",
+    "RAG_DATA_PATH",
+    "RAG_VS_PATH",
+]
