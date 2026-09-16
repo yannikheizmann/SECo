@@ -5,6 +5,12 @@ Hochschule Offenburg's humanoid robot Sweaty. It answers questions about the
 university and the robot, and handles general conversation. Specialist agents use
 web search and a local retrieval-augmented generation (RAG) knowledge base.
 
+SECo is a cleaned-up fork of my university project, which I developed in the summer
+semester of 2025 under the supervision of Prof. Dr. Daniela Oelke. The original
+repository's latest commit is dated **5 July 2025**. The
+recent commits here document its migration and cleanup; the core architecture and
+technology choices reflect the original project rather than a newly designed stack.
+
 ## Setup
 
 Use Python 3.13 and uv. Run these commands from the repository root:
@@ -67,9 +73,3 @@ two-turn general conversation through the graph with mocked external services.
 They do not validate live proxy access, embeddings, or search results. To verify
 those integrations, configure credentials and ask both a university question and
 a robot question in the application.
-
-## Background
-
-SECo grew out of a university project for Sweaty at Hochschule Offenburg.
-This repository contains the conversational agent implementation by Yannik
-Heizmann. The original university project was supervised by Prof. Dr. Daniela Oelke.
