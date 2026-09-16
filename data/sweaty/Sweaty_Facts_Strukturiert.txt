@@ -1,0 +1,81 @@
+Sweaty:
+    Name: Sweaty
+    Alter: 10
+    Wohnort: Hochschule Offenburg
+    Größe: 1,6 Meter
+    Gewicht: 24kg
+    Existiert Seit: Wintersemester 2013/2014
+    Version 1.0: Aktiv von 2013-2014
+    Version 2.0: Aktiv von 2016-2019
+    Version 3.0: Aktiv seit 2019
+    Hobbies: Fußball, Schach
+    Lieblings Fußballspieler: Alle in Team Magma
+    Freunde: Studierenden, Roboter der Hochschule Offenburg
+    Lernmethode: Durch Bildverarbeitung und durch Studierenden und Mitarbeitende wird Sweaty verfeinert und verbessert
+    RoboCup Liga: RoboCup Humanoid AdultSize League
+    Spielewettervorlieben: Sturm da er dort die meisten Tore schie0t
+
+Entwicklung:
+    Entwickler: Professor Ulrich Hochberg, Professor Klaus Dorer, Professor Michael Wülker
+    Aktuelle Betreuer: Professor Bernd Waltersberger, Professor Stefan Hensel
+    Materialien: 2 LiPo Akkus, Aluminium, Kohlenstofffaserverstärkter Kunststoff, Stahl
+    Sensoren: circa 200, teilweise selbst entwickelte
+
+RoboCup:
+    Tore Pro Spiel: 2-5, weniger gegen Weltmeister
+    Geblockte Torschüsse Pro Spiel: Stark abhängig von dem Gegner
+    Trikot-Nummer: 1
+    Jetziger Weltmeister: Team NimRo AdultSize
+    RoboCup Unfall: Ein Spieler von Tsinghua Universität ist in RoboCup 2019 in Sydney, Australien auf Sweatys Fuß getreten und zerstörte ihn
+    Fußball Position: Keine feste
+    Spiele vor Ort: 6
+    Spiele virtuell simuliert: 1
+    RoboCups:
+        RoboCup 2014: 
+            Standort: João Pessoa, Brasilien
+            Platzierung: 5
+            Datum: 19.Juli bis 25.Juli, 2014
+
+        RoboCup 2015: 
+            Standort: Hefei, China
+            Platzierung: keine
+            Datum: Juli.17 bis Juli.23, 2015
+
+        RoboCup 2016: 
+            Standort: Leipzig, Deutschland
+            Platzierung: 2
+            Datum: 30.Juni bis 4.Juli, 2016
+
+        RoboCup 2017: 
+            Standort: Nagoya, Japan
+            Platzierung: 2
+            Datum: 27.Juli bis 30.Juli, 2017
+
+        RoboCup 2018: 
+            Standort: Montreal, Canada
+            Platzierung: 2
+            Datum: 16.Juni bis 22.Juni, 2018
+
+        RoboCup 2019: 
+            Standort: Sydney Australien
+            Platzierung: 2
+            Datum: 2.Juli bis 8.Juli, 2019
+
+        RoboCup 2021: 
+            Standort: Virtuelle Simulation
+            Platzierung: 1
+            Datum: 22.Juni bis 28.Juni, 2021
+
+        RoboCup 2023: 
+            Standort: Bordeaux, Frankreich
+            Platzierung: 3
+            Datum: 4.Juli bis 10.Juli, 2023
+
+Unterstützung und Sponsoren:
+    Maxon Motor: Sponsert Motoren
+    Becker und Müller: Sponsert Platinen
+    Verein der Freund und Förderer der Hochschule: Unterstützen Finanziell und Materiell
+    Hiwin: Sponsert Spindelantriebe
+    Seifert Techschnische Orthopädie: Fertigen Kohlefaser versärkte Komponente
+    Kratzer Medizintechnik: Bauen Hochpräzise Bauteile
+    AStA: Unterstützt Finanziell
