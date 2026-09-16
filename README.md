@@ -1,7 +1,7 @@
 # SECo
 
-**Sweaty Conversation Agent System** is a LangGraph-based conversational agent for
-Hochschule Offenburg's humanoid robot Sweaty. It answers questions about the
+**SWEATY Conversation Agent System** is a LangGraph-based conversational agent for
+Hochschule Offenburg's humanoid robot [SWEATY](https://www.hs-offenburg.de/studium/studierendenprojekte/team-sweaty). It answers questions about the
 university and the robot, and handles general conversation. Specialist agents use
 web search and a local retrieval-augmented generation (RAG) knowledge base.
 
