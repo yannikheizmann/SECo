@@ -8,3 +8,7 @@ dist/
 .env.*
 !.env.example
 .DS_Store
+
+# Runtime output
+seco.log
+data/rag/

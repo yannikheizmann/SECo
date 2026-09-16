@@ -1,9 +1,9 @@
 from typing import Union, override
 
+from langgraph.graph import END
 from langgraph.types import Send
 
 from ...config.graph import (
-    END,
     INTENT_ROUTER
 )
 from ._base import EdgeBase

@@ -1,12 +1,12 @@
 from typing import override
 
 from langchain_core.messages import AIMessage
+from langgraph.graph import END
 from langgraph.types import Command
 
 from ...config.graph import (
     AGGREGATOR_CHECKPOINT,
     AGGREGATOR_AGENT,
-    END
 )
 from ..states import SystemState
 from ._base import NodeBase

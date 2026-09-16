@@ -5,7 +5,8 @@ import os
 import logging
 from typing import Any
 
-from .graph import GraphBuilder
+from dotenv import load_dotenv
+
 from .config.graph import (
     GENERAL_AGENT,
     HSO_AGENT,
@@ -14,13 +15,6 @@ from .config.graph import (
 from .config.application import LOGGING_PATH
 
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(LOGGING_PATH)
-    ]
-)
 
 
 class Application:
@@ -35,6 +29,14 @@ class Application:
         """
         Initializes the application by setting up the colorama console and building the graph.
         """
+        load_dotenv()
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s - %(levelname)s - %(message)s",
+            handlers=[logging.FileHandler(LOGGING_PATH)],
+        )
+        from .graph import GraphBuilder
+
         init()
         logging.info("Initializing the graph.")
         self._graph = GraphBuilder.create()
