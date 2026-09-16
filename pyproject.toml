@@ -1,0 +1,14 @@
+[project]
+name = "seco"
+version = "0.1.0"
+description = "Sweaty Conversation Agent System"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/seco"]
